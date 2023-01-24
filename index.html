@@ -16,6 +16,8 @@ Bisnis Digital Anda"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -84,7 +86,11 @@ Bisnis Digital Anda"
                 </button>
               </form>
             </div>
-            <div class="d-flex justify-content-around my-5 col-12 col-sm-8">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-center"
+              class="d-flex justify-content-around my-5 col-12 col-sm-8"
+            >
               <div class="icon-home">
                 <a href="#"><img src="src/img/icon/wa.png" alt="wa" /></a>
               </div>
@@ -115,7 +121,10 @@ Bisnis Digital Anda"
 
     <!-- partner -->
     <section class="my-5">
-      <div class="container d-grid justify-content-center text-center">
+      <div
+        data-aos="fade-up"
+        class="container d-grid justify-content-center text-center"
+      >
         <h3>Creative Partners</h3>
         <img
           src="src/img/img-partner.png"
@@ -137,7 +146,7 @@ Bisnis Digital Anda"
               dalam berbagai skala kerja.
             </p>
           </div>
-          <div class="col-12 col-sm-6">
+          <div data-aos="fade-up" class="col-12 col-sm-6">
             <img
               src="src/img/product1.png"
               class="mx-auto img-fluid"
@@ -145,7 +154,7 @@ Bisnis Digital Anda"
             />
           </div>
         </div>
-        <div class="row align-items-center">
+        <div data-aos="fade-up" class="row align-items-center">
           <div class="col-12 col-sm-6">
             <img
               src="src/img/product2.png"
@@ -168,7 +177,7 @@ Bisnis Digital Anda"
     <section class="my-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-4">
+          <div data-aos="fade-up" class="col-12 col-sm-4">
             <img src="src/img/icon/1.png" alt="1" />
             <h3>Dukungan Teknis Profesional</h3>
             <p class="text-secondary">
@@ -176,7 +185,7 @@ Bisnis Digital Anda"
               awal hingga rilis.
             </p>
           </div>
-          <div class="col-12 col-sm-4">
+          <div data-aos="fade-up" class="col-12 col-sm-4">
             <img src="src/img/icon/2.png" alt="2" />
             <h3>Rancang Fitur Sesuai Anggaran</h3>
             <p class="text-secondary">
@@ -184,7 +193,7 @@ Bisnis Digital Anda"
               sesuai kebutuhan saat ini.
             </p>
           </div>
-          <div class="col-12 col-sm-4">
+          <div data-aos="fade-up" class="col-12 col-sm-4">
             <img src="src/img/icon/3.png" alt="3" />
             <h3>Upgrade Sesuai Kebutuhan</h3>
             <p class="text-secondary">
@@ -323,7 +332,7 @@ Bisnis Digital Anda"
               </form>
             </div>
           </div>
-          <div class="col-12 col-sm-6 px-5">
+          <div data-aos="fade-up" class="col-12 col-sm-6 px-5">
             <img
               src="src/img/img-section2.png"
               class="mx-auto img-fluid"
@@ -339,19 +348,15 @@ Bisnis Digital Anda"
     <footer class="bg-secondary-subtle p-5">
       <div class="container text-center">
         <img src="src/img/logo.png" alt="" />
-        <ul class="d-flex mt-3 justify-content-center">
-          <li class="me-5">
-            <a class="text-decoration-none text-black" href="#home">Home</a>
-          </li>
-          <li class="me-5">
-            <a class="text-decoration-none text-black" href="#product"
-              >Product</a
-            >
-          </li>
-          <li class="me-5">
-            <a class="text-decoration-none text-black" href="#faq">FAQ</a>
-          </li>
-        </ul>
+        <div class="d-flex mt-3 justify-content-center">
+          <a class="text-decoration-none text-black mx-3" href="#home">Home</a>
+
+          <a class="text-decoration-none text-black mx-3" href="#product"
+            >Product</a
+          >
+
+          <a class="text-decoration-none text-black mx-3" href="#faq">FAQ</a>
+        </div>
       </div>
     </footer>
 
@@ -360,5 +365,9 @@ Bisnis Digital Anda"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
