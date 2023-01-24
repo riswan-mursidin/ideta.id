@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  max-height: 100%;
+  font-family: "Epilogue", sans-serif;
+}
+
+.btn {
+  border-radius: 100rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
