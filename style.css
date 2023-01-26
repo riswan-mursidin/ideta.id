@@ -18,3 +18,22 @@ h4,
 h5 {
   font-weight: 600;
 }
+
+.form-control {
+  border-radius: 100rem;
+}
+
+.section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 575.98px) {
+  .section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .fitur {
+    text-align: center;
+  }
+}
